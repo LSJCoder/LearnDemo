@@ -1,0 +1,6 @@
+framework module Pods_LSJProject {
+  umbrella header "Pods-LSJProject-umbrella.h"
+
+  export *
+  module * { export * }
+}
