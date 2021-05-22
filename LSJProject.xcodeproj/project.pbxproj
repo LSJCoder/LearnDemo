@@ -18,7 +18,6 @@
 		A8029E182658C02700AF53E5 /* LSJCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8029E172658C02700AF53E5 /* LSJCategoryViewController.m */; };
 		A8029E1B2658C03500AF53E5 /* LSJFoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8029E1A2658C03500AF53E5 /* LSJFoundViewController.m */; };
 		A8029E1E2658C04E00AF53E5 /* LSJMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8029E1D2658C04E00AF53E5 /* LSJMineViewController.m */; };
-		A8029E242658C92D00AF53E5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8029E232658C92D00AF53E5 /* Default-568h@2x.png */; };
 		A8029E2B2658CA3700AF53E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8029E292658CA3700AF53E5 /* LaunchScreen.storyboard */; };
 		A8029E2E2658CC8300AF53E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8029E2C2658CC8300AF53E5 /* Assets.xcassets */; };
 		A8029E332658D0BD00AF53E5 /* LSJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8029E312658D0BD00AF53E5 /* LSJAppDelegate.m */; };
@@ -83,7 +82,6 @@
 		A8029E1A2658C03500AF53E5 /* LSJFoundViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJFoundViewController.m; sourceTree = "<group>"; };
 		A8029E1C2658C04E00AF53E5 /* LSJMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJMineViewController.h; sourceTree = "<group>"; };
 		A8029E1D2658C04E00AF53E5 /* LSJMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJMineViewController.m; sourceTree = "<group>"; };
-		A8029E232658C92D00AF53E5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A8029E2A2658CA3700AF53E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LSJProject/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		A8029E2C2658CC8300AF53E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8029E2D2658CC8300AF53E5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -367,7 +365,6 @@
 		A87C6E4B2648280700138A78 = {
 			isa = PBXGroup;
 			children = (
-				A8029E232658C92D00AF53E5 /* Default-568h@2x.png */,
 				A87C6E562648280700138A78 /* LSJProject */,
 				A87C6E6F2648280900138A78 /* LSJProjectTests */,
 				A87C6E7A2648280900138A78 /* LSJProjectUITests */,
@@ -562,7 +559,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A87C6E9726482DD000138A78 /* LSJSelectOneLineCell.xib in Resources */,
-				A8029E242658C92D00AF53E5 /* Default-568h@2x.png in Resources */,
 				A8029E2E2658CC8300AF53E5 /* Assets.xcassets in Resources */,
 				A8029E2B2658CA3700AF53E5 /* LaunchScreen.storyboard in Resources */,
 			);

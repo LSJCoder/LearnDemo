@@ -46,11 +46,11 @@
 
     // 分类
     LSJCategoryViewController * category = [[LSJCategoryViewController alloc] init];
-    [self setUpOneChildViewController:category image:[UIImage imageNamed:@"项目推荐_未选中"] selectedImage:[UIImage imageNamed:@"项目推荐_选中"] title:@"推荐项目" tag:2];
+    [self setUpOneChildViewController:category image:[UIImage imageNamed:@"项目推荐_未选中"] selectedImage:[UIImage imageNamed:@"项目推荐_选中"] title:@"分类" tag:2];
     
     // 发现
     LSJFoundViewController * found = [[LSJFoundViewController alloc] init];
-    [self setUpOneChildViewController:found image:[UIImage imageNamed:@"基金使用_未选中"] selectedImage:[UIImage imageNamed:@"基金使用_选中"] title:@"基金使用" tag:3];
+    [self setUpOneChildViewController:found image:[UIImage imageNamed:@"基金使用_未选中"] selectedImage:[UIImage imageNamed:@"基金使用_选中"] title:@"发现" tag:3];
 
     // 我的
     LSJMineViewController *mine = [[LSJMineViewController alloc] init];

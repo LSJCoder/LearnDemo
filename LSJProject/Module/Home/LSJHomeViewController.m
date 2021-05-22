@@ -16,17 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self tempAppearance];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)tempAppearance {
+    UILabel *tipsLabel = UILabel.new;
+    tipsLabel.frame = CGRectMake(0, 0, ScreenWidth, ScreenHeight);
+    tipsLabel.text = @"敬请期待~";
+    tipsLabel.font = LSJBoldFont(15);
+    tipsLabel.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:tipsLabel];
 }
-*/
 
 @end
