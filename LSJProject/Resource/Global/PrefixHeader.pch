@@ -9,6 +9,12 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
-#define NavigationColor [UIColor redColor]
+#import "NotificationMacro.h"
+#import "APIMacro.h"
+#import "DeviceAndSystemMacro.h"
+#import "CommonUseMacro.h"
+#import "CommonSetMacro.h"
+#import "ImportMacro.h"
+
 
 #endif /* PrefixHeader_pch */

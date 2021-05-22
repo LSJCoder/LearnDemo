@@ -90,6 +90,12 @@
 		A8029E312658D0BD00AF53E5 /* LSJAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSJAppDelegate.m; sourceTree = "<group>"; };
 		A8029E322658D0BD00AF53E5 /* LSJAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSJAppDelegate.h; sourceTree = "<group>"; };
 		A8029E3B2658D3E200AF53E5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A8029E3C2658D8AC00AF53E5 /* NotificationMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationMacro.h; sourceTree = "<group>"; };
+		A8029E3D2658D8F000AF53E5 /* APIMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIMacro.h; sourceTree = "<group>"; };
+		A8029E3E2658D92700AF53E5 /* DeviceAndSystemMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceAndSystemMacro.h; sourceTree = "<group>"; };
+		A8029E3F2658D99600AF53E5 /* CommonUseMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonUseMacro.h; sourceTree = "<group>"; };
+		A8029E402658D9E100AF53E5 /* ImportMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImportMacro.h; sourceTree = "<group>"; };
+		A8029E412658E90200AF53E5 /* CommonSetMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonSetMacro.h; sourceTree = "<group>"; };
 		A84CF2A4264C24FD0034C94A /* LSJLineChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJLineChartView.h; sourceTree = "<group>"; };
 		A84CF2A5264C24FD0034C94A /* LSJLineChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJLineChartView.m; sourceTree = "<group>"; };
 		A84CF2AA264C25950034C94A /* UIBezierPath+LSJ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+LSJ.h"; sourceTree = "<group>"; };
@@ -334,6 +340,12 @@
 		A8029E372658D32700AF53E5 /* Macros */ = {
 			isa = PBXGroup;
 			children = (
+				A8029E3C2658D8AC00AF53E5 /* NotificationMacro.h */,
+				A8029E3D2658D8F000AF53E5 /* APIMacro.h */,
+				A8029E3E2658D92700AF53E5 /* DeviceAndSystemMacro.h */,
+				A8029E3F2658D99600AF53E5 /* CommonUseMacro.h */,
+				A8029E412658E90200AF53E5 /* CommonSetMacro.h */,
+				A8029E402658D9E100AF53E5 /* ImportMacro.h */,
 			);
 			path = Macros;
 			sourceTree = "<group>";
