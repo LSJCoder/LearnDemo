@@ -8,11 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		1D42E020BDAC7D2B53F5B8FC /* Pods_LSJProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2C4D8AED5F3CF7AA17344C /* Pods_LSJProjectTests.framework */; };
-		A87C6E592648280700138A78 /* LSJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A87C6E582648280700138A78 /* LSJAppDelegate.m */; };
+		A8029DFB2658BCBE00AF53E5 /* LSJBaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8029DFA2658BCBE00AF53E5 /* LSJBaseTabBarViewController.m */; };
+		A8029E042658BE9100AF53E5 /* LSJBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8029E032658BE9100AF53E5 /* LSJBaseNavigationViewController.m */; };
+		A8029E072658BEA800AF53E5 /* LSJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8029E062658BEA800AF53E5 /* LSJBaseViewController.m */; };
+		A8029E0C2658BEF000AF53E5 /* LSJBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8029E0B2658BEF000AF53E5 /* LSJBaseModel.m */; };
+		A8029E0F2658BF0400AF53E5 /* LSJBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8029E0E2658BF0400AF53E5 /* LSJBaseView.m */; };
+		A8029E122658BF4E00AF53E5 /* LSJWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8029E112658BF4E00AF53E5 /* LSJWebViewController.m */; };
+		A8029E152658BFF400AF53E5 /* LSJHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8029E142658BFF400AF53E5 /* LSJHomeViewController.m */; };
+		A8029E182658C02700AF53E5 /* LSJCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8029E172658C02700AF53E5 /* LSJCategoryViewController.m */; };
+		A8029E1B2658C03500AF53E5 /* LSJFoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8029E1A2658C03500AF53E5 /* LSJFoundViewController.m */; };
+		A8029E1E2658C04E00AF53E5 /* LSJMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8029E1D2658C04E00AF53E5 /* LSJMineViewController.m */; };
+		A8029E242658C92D00AF53E5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8029E232658C92D00AF53E5 /* Default-568h@2x.png */; };
+		A8029E2B2658CA3700AF53E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8029E292658CA3700AF53E5 /* LaunchScreen.storyboard */; };
+		A8029E2E2658CC8300AF53E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8029E2C2658CC8300AF53E5 /* Assets.xcassets */; };
+		A8029E332658D0BD00AF53E5 /* LSJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8029E312658D0BD00AF53E5 /* LSJAppDelegate.m */; };
+		A84CF2A6264C24FD0034C94A /* LSJLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = A84CF2A5264C24FD0034C94A /* LSJLineChartView.m */; };
+		A84CF2AC264C25950034C94A /* UIBezierPath+LSJ.m in Sources */ = {isa = PBXBuildFile; fileRef = A84CF2AB264C25950034C94A /* UIBezierPath+LSJ.m */; };
+		A84CF2AF264C26100034C94A /* LSJLineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A84CF2AE264C26100034C94A /* LSJLineChartViewController.m */; };
 		A87C6E5C2648280700138A78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87C6E5B2648280700138A78 /* ViewController.m */; };
-		A87C6E5F2648280700138A78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87C6E5D2648280700138A78 /* Main.storyboard */; };
-		A87C6E612648280800138A78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A87C6E602648280800138A78 /* Assets.xcassets */; };
-		A87C6E642648280800138A78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87C6E622648280800138A78 /* LaunchScreen.storyboard */; };
 		A87C6E672648280800138A78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A87C6E662648280800138A78 /* main.m */; };
 		A87C6E712648280900138A78 /* LSJProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A87C6E702648280900138A78 /* LSJProjectTests.m */; };
 		A87C6E7C2648280900138A78 /* LSJProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A87C6E7B2648280900138A78 /* LSJProjectUITests.m */; };
@@ -50,15 +63,42 @@
 		7E98274E0B5EB96B8FD768B9 /* Pods-LSJProject-LSJProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSJProject-LSJProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-LSJProject-LSJProjectUITests/Pods-LSJProject-LSJProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9E647F72359A66C90F64E1EF /* Pods_LSJProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSJProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A31DFC107FD25D70D62B3481 /* Pods-LSJProject-LSJProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSJProject-LSJProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-LSJProject-LSJProjectUITests/Pods-LSJProject-LSJProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A8029DF92658BCBE00AF53E5 /* LSJBaseTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJBaseTabBarViewController.h; sourceTree = "<group>"; };
+		A8029DFA2658BCBE00AF53E5 /* LSJBaseTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJBaseTabBarViewController.m; sourceTree = "<group>"; };
+		A8029E022658BE9100AF53E5 /* LSJBaseNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJBaseNavigationViewController.h; sourceTree = "<group>"; };
+		A8029E032658BE9100AF53E5 /* LSJBaseNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJBaseNavigationViewController.m; sourceTree = "<group>"; };
+		A8029E052658BEA800AF53E5 /* LSJBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJBaseViewController.h; sourceTree = "<group>"; };
+		A8029E062658BEA800AF53E5 /* LSJBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJBaseViewController.m; sourceTree = "<group>"; };
+		A8029E0A2658BEF000AF53E5 /* LSJBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJBaseModel.h; sourceTree = "<group>"; };
+		A8029E0B2658BEF000AF53E5 /* LSJBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJBaseModel.m; sourceTree = "<group>"; };
+		A8029E0D2658BF0400AF53E5 /* LSJBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJBaseView.h; sourceTree = "<group>"; };
+		A8029E0E2658BF0400AF53E5 /* LSJBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJBaseView.m; sourceTree = "<group>"; };
+		A8029E102658BF4E00AF53E5 /* LSJWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJWebViewController.h; sourceTree = "<group>"; };
+		A8029E112658BF4E00AF53E5 /* LSJWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJWebViewController.m; sourceTree = "<group>"; };
+		A8029E132658BFF400AF53E5 /* LSJHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJHomeViewController.h; sourceTree = "<group>"; };
+		A8029E142658BFF400AF53E5 /* LSJHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJHomeViewController.m; sourceTree = "<group>"; };
+		A8029E162658C02700AF53E5 /* LSJCategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJCategoryViewController.h; sourceTree = "<group>"; };
+		A8029E172658C02700AF53E5 /* LSJCategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJCategoryViewController.m; sourceTree = "<group>"; };
+		A8029E192658C03500AF53E5 /* LSJFoundViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJFoundViewController.h; sourceTree = "<group>"; };
+		A8029E1A2658C03500AF53E5 /* LSJFoundViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJFoundViewController.m; sourceTree = "<group>"; };
+		A8029E1C2658C04E00AF53E5 /* LSJMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJMineViewController.h; sourceTree = "<group>"; };
+		A8029E1D2658C04E00AF53E5 /* LSJMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJMineViewController.m; sourceTree = "<group>"; };
+		A8029E232658C92D00AF53E5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A8029E2A2658CA3700AF53E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LSJProject/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		A8029E2C2658CC8300AF53E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8029E2D2658CC8300AF53E5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8029E312658D0BD00AF53E5 /* LSJAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSJAppDelegate.m; sourceTree = "<group>"; };
+		A8029E322658D0BD00AF53E5 /* LSJAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSJAppDelegate.h; sourceTree = "<group>"; };
+		A8029E3B2658D3E200AF53E5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A84CF2A4264C24FD0034C94A /* LSJLineChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJLineChartView.h; sourceTree = "<group>"; };
+		A84CF2A5264C24FD0034C94A /* LSJLineChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJLineChartView.m; sourceTree = "<group>"; };
+		A84CF2AA264C25950034C94A /* UIBezierPath+LSJ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+LSJ.h"; sourceTree = "<group>"; };
+		A84CF2AB264C25950034C94A /* UIBezierPath+LSJ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+LSJ.m"; sourceTree = "<group>"; };
+		A84CF2AD264C26100034C94A /* LSJLineChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJLineChartViewController.h; sourceTree = "<group>"; };
+		A84CF2AE264C26100034C94A /* LSJLineChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJLineChartViewController.m; sourceTree = "<group>"; };
 		A87C6E542648280700138A78 /* LSJProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSJProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A87C6E572648280700138A78 /* LSJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJAppDelegate.h; sourceTree = "<group>"; };
-		A87C6E582648280700138A78 /* LSJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJAppDelegate.m; sourceTree = "<group>"; };
 		A87C6E5A2648280700138A78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A87C6E5B2648280700138A78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A87C6E5E2648280700138A78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A87C6E602648280800138A78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A87C6E632648280800138A78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A87C6E652648280800138A78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A87C6E662648280800138A78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A87C6E6C2648280900138A78 /* LSJProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSJProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A87C6E702648280900138A78 /* LSJProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJProjectTests.m; sourceTree = "<group>"; };
@@ -136,9 +176,186 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A8029DF72658BC5C00AF53E5 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A8029E082658BEB500AF53E5 /* Model */,
+				A8029E092658BED400AF53E5 /* View */,
+				A8029DF82658BC6E00AF53E5 /* Controller */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A8029DF82658BC6E00AF53E5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A8029DF92658BCBE00AF53E5 /* LSJBaseTabBarViewController.h */,
+				A8029DFA2658BCBE00AF53E5 /* LSJBaseTabBarViewController.m */,
+				A8029E022658BE9100AF53E5 /* LSJBaseNavigationViewController.h */,
+				A8029E032658BE9100AF53E5 /* LSJBaseNavigationViewController.m */,
+				A8029E052658BEA800AF53E5 /* LSJBaseViewController.h */,
+				A8029E062658BEA800AF53E5 /* LSJBaseViewController.m */,
+				A8029E102658BF4E00AF53E5 /* LSJWebViewController.h */,
+				A8029E112658BF4E00AF53E5 /* LSJWebViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A8029DFC2658BD8A00AF53E5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A8029E132658BFF400AF53E5 /* LSJHomeViewController.h */,
+				A8029E142658BFF400AF53E5 /* LSJHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A8029DFE2658BD9E00AF53E5 /* Meine */ = {
+			isa = PBXGroup;
+			children = (
+				A8029E1C2658C04E00AF53E5 /* LSJMineViewController.h */,
+				A8029E1D2658C04E00AF53E5 /* LSJMineViewController.m */,
+			);
+			path = Meine;
+			sourceTree = "<group>";
+		};
+		A8029DFF2658BDAA00AF53E5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A8029E162658C02700AF53E5 /* LSJCategoryViewController.h */,
+				A8029E172658C02700AF53E5 /* LSJCategoryViewController.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A8029E002658BDC400AF53E5 /* Found */ = {
+			isa = PBXGroup;
+			children = (
+				A8029E192658C03500AF53E5 /* LSJFoundViewController.h */,
+				A8029E1A2658C03500AF53E5 /* LSJFoundViewController.m */,
+			);
+			path = Found;
+			sourceTree = "<group>";
+		};
+		A8029E012658BDDA00AF53E5 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				A8029DFC2658BD8A00AF53E5 /* Home */,
+				A8029DFF2658BDAA00AF53E5 /* Category */,
+				A8029E002658BDC400AF53E5 /* Found */,
+				A8029DFE2658BD9E00AF53E5 /* Meine */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		A8029E082658BEB500AF53E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A8029E0A2658BEF000AF53E5 /* LSJBaseModel.h */,
+				A8029E0B2658BEF000AF53E5 /* LSJBaseModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8029E092658BED400AF53E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8029E0D2658BF0400AF53E5 /* LSJBaseView.h */,
+				A8029E0E2658BF0400AF53E5 /* LSJBaseView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8029E1F2658C88D00AF53E5 /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				A8029E3A2658D3AA00AF53E5 /* Common */,
+				A8029E382658D33400AF53E5 /* Category */,
+				A8029E372658D32700AF53E5 /* Macros */,
+				A8029E362658D27C00AF53E5 /* NetWork */,
+				A8029E352658D27200AF53E5 /* Tool */,
+				A8029E342658D26700AF53E5 /* Util */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		A8029E202658C8BB00AF53E5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A8029E222658C8EB00AF53E5 /* Global */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		A8029E212658C8CA00AF53E5 /* Vernder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vernder;
+			sourceTree = "<group>";
+		};
+		A8029E222658C8EB00AF53E5 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				A8029E322658D0BD00AF53E5 /* LSJAppDelegate.h */,
+				A8029E312658D0BD00AF53E5 /* LSJAppDelegate.m */,
+				A87C6E5A2648280700138A78 /* ViewController.h */,
+				A87C6E5B2648280700138A78 /* ViewController.m */,
+				A8029E292658CA3700AF53E5 /* LaunchScreen.storyboard */,
+				A87C6E662648280800138A78 /* main.m */,
+				A8029E2C2658CC8300AF53E5 /* Assets.xcassets */,
+				A8029E2D2658CC8300AF53E5 /* Info.plist */,
+				A8029E3B2658D3E200AF53E5 /* PrefixHeader.pch */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		A8029E342658D26700AF53E5 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		A8029E352658D27200AF53E5 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		A8029E362658D27C00AF53E5 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		A8029E372658D32700AF53E5 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		A8029E382658D33400AF53E5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A8029E3A2658D3AA00AF53E5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		A87C6E4B2648280700138A78 = {
 			isa = PBXGroup;
 			children = (
+				A8029E232658C92D00AF53E5 /* Default-568h@2x.png */,
 				A87C6E562648280700138A78 /* LSJProject */,
 				A87C6E6F2648280900138A78 /* LSJProjectTests */,
 				A87C6E7A2648280900138A78 /* LSJProjectUITests */,
@@ -161,17 +378,13 @@
 		A87C6E562648280700138A78 /* LSJProject */ = {
 			isa = PBXGroup;
 			children = (
-				A87C6E572648280700138A78 /* LSJAppDelegate.h */,
-				A87C6E582648280700138A78 /* LSJAppDelegate.m */,
+				A8029DF72658BC5C00AF53E5 /* Base */,
+				A8029E012658BDDA00AF53E5 /* Module */,
+				A8029E1F2658C88D00AF53E5 /* Expand */,
+				A8029E212658C8CA00AF53E5 /* Vernder */,
+				A8029E202658C8BB00AF53E5 /* Resource */,
 				A87C6E9026482DBA00138A78 /* Views */,
 				A87C6E89264829CD00138A78 /* Conteollers */,
-				A87C6E5A2648280700138A78 /* ViewController.h */,
-				A87C6E5B2648280700138A78 /* ViewController.m */,
-				A87C6E5D2648280700138A78 /* Main.storyboard */,
-				A87C6E602648280800138A78 /* Assets.xcassets */,
-				A87C6E622648280800138A78 /* LaunchScreen.storyboard */,
-				A87C6E652648280800138A78 /* Info.plist */,
-				A87C6E662648280800138A78 /* main.m */,
 			);
 			path = LSJProject;
 			sourceTree = "<group>";
@@ -203,6 +416,8 @@
 				A87C6E9A2648338100138A78 /* LSJListViewViewController.m */,
 				A87C6E9C26483D3600138A78 /* LSJPickerViewViewController.h */,
 				A87C6E9D26483D3600138A78 /* LSJPickerViewViewController.m */,
+				A84CF2AD264C26100034C94A /* LSJLineChartViewController.h */,
+				A84CF2AE264C26100034C94A /* LSJLineChartViewController.m */,
 			);
 			path = Conteollers;
 			sourceTree = "<group>";
@@ -217,6 +432,10 @@
 				A87C6E9326482DD000138A78 /* LSJSelectOneLineCell.xib */,
 				A87C6E9F26483E0000138A78 /* LSJPickerView.h */,
 				A87C6EA026483E0000138A78 /* LSJPickerView.m */,
+				A84CF2A4264C24FD0034C94A /* LSJLineChartView.h */,
+				A84CF2A5264C24FD0034C94A /* LSJLineChartView.m */,
+				A84CF2AA264C25950034C94A /* UIBezierPath+LSJ.h */,
+				A84CF2AB264C25950034C94A /* UIBezierPath+LSJ.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -330,10 +549,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A87C6E642648280800138A78 /* LaunchScreen.storyboard in Resources */,
-				A87C6E612648280800138A78 /* Assets.xcassets in Resources */,
 				A87C6E9726482DD000138A78 /* LSJSelectOneLineCell.xib in Resources */,
-				A87C6E5F2648280700138A78 /* Main.storyboard in Resources */,
+				A8029E242658C92D00AF53E5 /* Default-568h@2x.png in Resources */,
+				A8029E2E2658CC8300AF53E5 /* Assets.xcassets in Resources */,
+				A8029E2B2658CA3700AF53E5 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,13 +682,26 @@
 			files = (
 				A87C6E9826482DD000138A78 /* LSJSelectListView.m in Sources */,
 				A87C6E5C2648280700138A78 /* ViewController.m in Sources */,
+				A8029E072658BEA800AF53E5 /* LSJBaseViewController.m in Sources */,
 				A87C6E8C264829FC00138A78 /* LSJExampleListViewController.m in Sources */,
+				A8029E0F2658BF0400AF53E5 /* LSJBaseView.m in Sources */,
 				A87C6E672648280800138A78 /* main.m in Sources */,
+				A8029DFB2658BCBE00AF53E5 /* LSJBaseTabBarViewController.m in Sources */,
+				A8029E042658BE9100AF53E5 /* LSJBaseNavigationViewController.m in Sources */,
+				A8029E1B2658C03500AF53E5 /* LSJFoundViewController.m in Sources */,
+				A8029E152658BFF400AF53E5 /* LSJHomeViewController.m in Sources */,
+				A84CF2AC264C25950034C94A /* UIBezierPath+LSJ.m in Sources */,
 				A87C6E9E26483D3600138A78 /* LSJPickerViewViewController.m in Sources */,
 				A87C6EA126483E0000138A78 /* LSJPickerView.m in Sources */,
 				A87C6E9B2648338100138A78 /* LSJListViewViewController.m in Sources */,
 				A87C6E9626482DD000138A78 /* LSJSelectOneLineCell.m in Sources */,
-				A87C6E592648280700138A78 /* LSJAppDelegate.m in Sources */,
+				A8029E1E2658C04E00AF53E5 /* LSJMineViewController.m in Sources */,
+				A8029E122658BF4E00AF53E5 /* LSJWebViewController.m in Sources */,
+				A84CF2AF264C26100034C94A /* LSJLineChartViewController.m in Sources */,
+				A8029E182658C02700AF53E5 /* LSJCategoryViewController.m in Sources */,
+				A8029E0C2658BEF000AF53E5 /* LSJBaseModel.m in Sources */,
+				A8029E332658D0BD00AF53E5 /* LSJAppDelegate.m in Sources */,
+				A84CF2A6264C24FD0034C94A /* LSJLineChartView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,18 +737,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A87C6E5D2648280700138A78 /* Main.storyboard */ = {
+		A8029E292658CA3700AF53E5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A87C6E5E2648280700138A78 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A87C6E622648280800138A78 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A87C6E632648280800138A78 /* Base */,
+				A8029E2A2658CA3700AF53E5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -643,7 +867,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UZ6ARFAKQN;
-				INFOPLIST_FILE = LSJProject/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LSJProject/Resource/Global/PrefixHeader.pch";
+				INFOPLIST_FILE = LSJProject/Resource/Global/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -661,7 +886,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UZ6ARFAKQN;
-				INFOPLIST_FILE = LSJProject/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LSJProject/Resource/Global/PrefixHeader.pch";
+				INFOPLIST_FILE = LSJProject/Resource/Global/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

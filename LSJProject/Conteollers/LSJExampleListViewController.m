@@ -28,12 +28,14 @@ static NSString * const kLSJCellReuseIdentifier = @"kLSJCellReuseIdentifier";
     
     self.exampleControllers = @[
                       @"LSJListViewViewController",
-                      @"LSJPickerViewViewController"
+                      @"LSJPickerViewViewController",
+                      @"LSJLineChartViewController"
                       ];
     
     self.exampleControllersTitles = @[
                                 @"实现任何位置下拉列表",
-                                @"简单底部pickerView实现"
+                                @"简单底部pickerView实现",
+                                @"折线波浪图的实现"
                                 ];
     
     return self;

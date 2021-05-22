@@ -7,7 +7,7 @@
 //
 
 #import "LSJAppDelegate.h"
-#import "LSJExampleListViewController.h"
+#import "LSJBaseTabBarViewController.h"
 
 @interface LSJAppDelegate ()
 
@@ -21,8 +21,8 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = UIColor.whiteColor;
     
-    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:LSJExampleListViewController.new];
-    self.window.rootViewController = navigationController;
+    LSJBaseTabBarViewController *tabBarViewController = [[LSJBaseTabBarViewController alloc] init];
+    self.window.rootViewController = tabBarViewController;
     [self.window makeKeyAndVisible];
     return YES;
 }
