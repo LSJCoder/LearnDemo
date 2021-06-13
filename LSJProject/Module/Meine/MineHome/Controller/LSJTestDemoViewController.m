@@ -59,6 +59,10 @@ static NSString const *VCTitle = @"VCTitle";
                                 @{
                                     VCName : @"LSJLineChartViewController",
                                     VCTitle : @"折线波浪图的实现"
+                                    },
+                                @{
+                                    VCName : @"LSJMBProgressHUDCustomViewController",
+                                    VCTitle : @"MBProgressHUDCustom"
                                     }
                                 ];
     

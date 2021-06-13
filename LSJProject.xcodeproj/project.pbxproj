@@ -25,6 +25,7 @@
 		A8029E512658FA0B00AF53E5 /* LSJMineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8029E4F2658FA0B00AF53E5 /* LSJMineCell.m */; };
 		A8029E522658FA0B00AF53E5 /* LSJMineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8029E502658FA0B00AF53E5 /* LSJMineCell.xib */; };
 		A8029E552658FCD000AF53E5 /* LSJMineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8029E542658FCD000AF53E5 /* LSJMineModel.m */; };
+		A875B7292675F62B009DE04B /* LSJMBProgressHUDCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A875B7282675F62A009DE04B /* LSJMBProgressHUDCustomViewController.m */; };
 		A87C6E5C2648280700138A78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87C6E5B2648280700138A78 /* ViewController.m */; };
 		A87C6E672648280800138A78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A87C6E662648280800138A78 /* main.m */; };
 		A87C6E712648280900138A78 /* LSJProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A87C6E702648280900138A78 /* LSJProjectTests.m */; };
@@ -110,6 +111,8 @@
 		A8029E502658FA0B00AF53E5 /* LSJMineCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LSJMineCell.xib; sourceTree = "<group>"; };
 		A8029E532658FCD000AF53E5 /* LSJMineModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJMineModel.h; sourceTree = "<group>"; };
 		A8029E542658FCD000AF53E5 /* LSJMineModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJMineModel.m; sourceTree = "<group>"; };
+		A875B7272675F62A009DE04B /* LSJMBProgressHUDCustomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJMBProgressHUDCustomViewController.h; sourceTree = "<group>"; };
+		A875B7282675F62A009DE04B /* LSJMBProgressHUDCustomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJMBProgressHUDCustomViewController.m; sourceTree = "<group>"; };
 		A87C6E542648280700138A78 /* LSJProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSJProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A87C6E5A2648280700138A78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A87C6E5B2648280700138A78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -242,7 +245,6 @@
 			isa = PBXGroup;
 			children = (
 				A8029E432658F8E900AF53E5 /* MineHome */,
-				A8DEAF6A2659096000697DDD /* TestDemo */,
 			);
 			path = Meine;
 			sourceTree = "<group>";
@@ -395,6 +397,8 @@
 				A8029E472658F91600AF53E5 /* Controller */,
 				A8029E462658F90F00AF53E5 /* View */,
 				A8029E442658F8FC00AF53E5 /* Model */,
+				A8DEAF6A2659096000697DDD /* TestDemo */,
+				A875B7242675F481009DE04B /* CustomEncapsulation */,
 			);
 			path = MineHome;
 			sourceTree = "<group>";
@@ -435,6 +439,29 @@
 				A8DEAF65265904E100697DDD /* LSJVenderEncapsulationController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		A875B7242675F481009DE04B /* CustomEncapsulation */ = {
+			isa = PBXGroup;
+			children = (
+				A875B7262675F4E0009DE04B /* View */,
+				A875B7252675F4C5009DE04B /* Controller */,
+			);
+			path = CustomEncapsulation;
+			sourceTree = "<group>";
+		};
+		A875B7252675F4C5009DE04B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A875B7262675F4E0009DE04B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		A87C6E4B2648280700138A78 = {
@@ -507,6 +534,8 @@
 				A8DEAF8226590A3900697DDD /* LSJListViewViewController.m */,
 				A8DEAF7E26590A3900697DDD /* LSJPickerViewViewController.h */,
 				A8DEAF8326590A3900697DDD /* LSJPickerViewViewController.m */,
+				A875B7272675F62A009DE04B /* LSJMBProgressHUDCustomViewController.h */,
+				A875B7282675F62A009DE04B /* LSJMBProgressHUDCustomViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -776,6 +805,7 @@
 				A8029E552658FCD000AF53E5 /* LSJMineModel.m in Sources */,
 				A8DEAF7C26590A0B00697DDD /* UIBezierPath+LSJ.m in Sources */,
 				A8DEAF66265904E100697DDD /* LSJVenderEncapsulationController.m in Sources */,
+				A875B7292675F62B009DE04B /* LSJMBProgressHUDCustomViewController.m in Sources */,
 				A8DEAF63265904BF00697DDD /* LSJSystemEncapsulationController.m in Sources */,
 				A8029E0F2658BF0400AF53E5 /* LSJBaseView.m in Sources */,
 				A8DEAF7D26590A0B00697DDD /* LSJLineChartView.m in Sources */,
