@@ -9,6 +9,9 @@
 #ifndef FileHeaderMacro_h
 #define FileHeaderMacro_h
 
+// 三方
 #import <Masonry/Masonry.h>
+// 封装三方
+#import "LSJMBProgressHUD.h"
 
 #endif /* FileHeaderMacro_h */

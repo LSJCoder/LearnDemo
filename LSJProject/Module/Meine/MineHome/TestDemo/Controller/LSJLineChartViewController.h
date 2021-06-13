@@ -6,11 +6,11 @@
 //  Copyright © 2021年 Joy. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "LSJBaseViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LSJLineChartViewController : UIViewController
+@interface LSJLineChartViewController : LSJBaseViewController
 
 @end
 

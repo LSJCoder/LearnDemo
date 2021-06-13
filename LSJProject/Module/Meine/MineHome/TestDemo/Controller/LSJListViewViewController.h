@@ -6,11 +6,11 @@
 //  Copyright © 2021年 Joy. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "LSJBaseTableViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LSJListViewViewController : UITableViewController
+@interface LSJListViewViewController : LSJBaseTableViewController
 
 @end
 

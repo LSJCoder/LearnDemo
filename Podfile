@@ -9,7 +9,7 @@ target 'LSJProject' do
 	pod 'Masonry'
   pod 'MJRefresh',                        '~> 3.1.12'
   pod 'AFNetworking',                     '~> 3.1.0’
-  pod 'MBProgressHUD',                    '~> 0.9.2’
+  pod 'MBProgressHUD'
   pod 'IQKeyboardManager',                '~> 3.3.5'
   pod 'MJExtension',                      '~> 3.0.13'
   pod 'SDWebImage',                       '~>3.8'

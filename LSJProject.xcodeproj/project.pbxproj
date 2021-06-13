@@ -26,6 +26,9 @@
 		A8029E522658FA0B00AF53E5 /* LSJMineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8029E502658FA0B00AF53E5 /* LSJMineCell.xib */; };
 		A8029E552658FCD000AF53E5 /* LSJMineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8029E542658FCD000AF53E5 /* LSJMineModel.m */; };
 		A875B7292675F62B009DE04B /* LSJMBProgressHUDCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A875B7282675F62A009DE04B /* LSJMBProgressHUDCustomViewController.m */; };
+		A875B72D2675F838009DE04B /* LSJMBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A875B72C2675F838009DE04B /* LSJMBProgressHUD.m */; };
+		A875B73126760460009DE04B /* LSJBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A875B73026760460009DE04B /* LSJBaseTableViewController.m */; };
+		A875B73426760CFB009DE04B /* icon_yxzb_live.gif in Resources */ = {isa = PBXBuildFile; fileRef = A875B73326760CFB009DE04B /* icon_yxzb_live.gif */; };
 		A87C6E5C2648280700138A78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87C6E5B2648280700138A78 /* ViewController.m */; };
 		A87C6E672648280800138A78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A87C6E662648280800138A78 /* main.m */; };
 		A87C6E712648280900138A78 /* LSJProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A87C6E702648280900138A78 /* LSJProjectTests.m */; };
@@ -113,6 +116,11 @@
 		A8029E542658FCD000AF53E5 /* LSJMineModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJMineModel.m; sourceTree = "<group>"; };
 		A875B7272675F62A009DE04B /* LSJMBProgressHUDCustomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJMBProgressHUDCustomViewController.h; sourceTree = "<group>"; };
 		A875B7282675F62A009DE04B /* LSJMBProgressHUDCustomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJMBProgressHUDCustomViewController.m; sourceTree = "<group>"; };
+		A875B72B2675F838009DE04B /* LSJMBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJMBProgressHUD.h; sourceTree = "<group>"; };
+		A875B72C2675F838009DE04B /* LSJMBProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJMBProgressHUD.m; sourceTree = "<group>"; };
+		A875B72F26760460009DE04B /* LSJBaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJBaseTableViewController.h; sourceTree = "<group>"; };
+		A875B73026760460009DE04B /* LSJBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJBaseTableViewController.m; sourceTree = "<group>"; };
+		A875B73326760CFB009DE04B /* icon_yxzb_live.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = icon_yxzb_live.gif; sourceTree = "<group>"; };
 		A87C6E542648280700138A78 /* LSJProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSJProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A87C6E5A2648280700138A78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A87C6E5B2648280700138A78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -226,6 +234,8 @@
 				A8029E032658BE9100AF53E5 /* LSJBaseNavigationViewController.m */,
 				A8029E052658BEA800AF53E5 /* LSJBaseViewController.h */,
 				A8029E062658BEA800AF53E5 /* LSJBaseViewController.m */,
+				A875B72F26760460009DE04B /* LSJBaseTableViewController.h */,
+				A875B73026760460009DE04B /* LSJBaseTableViewController.m */,
 				A8029E102658BF4E00AF53E5 /* LSJWebViewController.h */,
 				A8029E112658BF4E00AF53E5 /* LSJWebViewController.m */,
 			);
@@ -322,6 +332,7 @@
 		A8029E212658C8CA00AF53E5 /* Vernder */ = {
 			isa = PBXGroup;
 			children = (
+				A875B72A2675F7DB009DE04B /* LSJMBProgressHUD */,
 			);
 			path = Vernder;
 			sourceTree = "<group>";
@@ -329,6 +340,7 @@
 		A8029E222658C8EB00AF53E5 /* Global */ = {
 			isa = PBXGroup;
 			children = (
+				A875B73226760CDE009DE04B /* gif */,
 				A8029E322658D0BD00AF53E5 /* LSJAppDelegate.h */,
 				A8029E312658D0BD00AF53E5 /* LSJAppDelegate.m */,
 				A87C6E5A2648280700138A78 /* ViewController.h */,
@@ -462,6 +474,23 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		A875B72A2675F7DB009DE04B /* LSJMBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				A875B72B2675F838009DE04B /* LSJMBProgressHUD.h */,
+				A875B72C2675F838009DE04B /* LSJMBProgressHUD.m */,
+			);
+			path = LSJMBProgressHUD;
+			sourceTree = "<group>";
+		};
+		A875B73226760CDE009DE04B /* gif */ = {
+			isa = PBXGroup;
+			children = (
+				A875B73326760CFB009DE04B /* icon_yxzb_live.gif */,
+			);
+			path = gif;
 			sourceTree = "<group>";
 		};
 		A87C6E4B2648280700138A78 = {
@@ -668,6 +697,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8DEAF7926590A0B00697DDD /* LSJSelectOneLineCell.xib in Resources */,
+				A875B73426760CFB009DE04B /* icon_yxzb_live.gif in Resources */,
 				A8029E2E2658CC8300AF53E5 /* Assets.xcassets in Resources */,
 				A8029E522658FA0B00AF53E5 /* LSJMineCell.xib in Resources */,
 				A8029E2B2658CA3700AF53E5 /* LaunchScreen.storyboard in Resources */,
@@ -800,6 +830,7 @@
 			files = (
 				A8DEAF8426590A3900697DDD /* LSJLineChartViewController.m in Sources */,
 				A8029E4D2658F9CC00AF53E5 /* LSJBaseCell.m in Sources */,
+				A875B73126760460009DE04B /* LSJBaseTableViewController.m in Sources */,
 				A87C6E5C2648280700138A78 /* ViewController.m in Sources */,
 				A8029E072658BEA800AF53E5 /* LSJBaseViewController.m in Sources */,
 				A8029E552658FCD000AF53E5 /* LSJMineModel.m in Sources */,
@@ -815,6 +846,7 @@
 				A8029E042658BE9100AF53E5 /* LSJBaseNavigationViewController.m in Sources */,
 				A8DEAF692659081C00697DDD /* LSJMineListModel.m in Sources */,
 				A8029E1B2658C03500AF53E5 /* LSJFoundViewController.m in Sources */,
+				A875B72D2675F838009DE04B /* LSJMBProgressHUD.m in Sources */,
 				A8DEAF602659049D00697DDD /* LSJCustomEncapsulationController.m in Sources */,
 				A8029E512658FA0B00AF53E5 /* LSJMineCell.m in Sources */,
 				A8029E152658BFF400AF53E5 /* LSJHomeViewController.m in Sources */,
