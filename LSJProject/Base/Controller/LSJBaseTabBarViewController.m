@@ -42,19 +42,19 @@
 -(void)setUpAllChildViewController{
     // 首页
     LSJHomeViewController * home = [[LSJHomeViewController alloc] init];
-    [self setUpOneChildViewController:home image:[UIImage imageNamed:@"首页01"] selectedImage:[UIImage imageNamed:@"首页01"] title:@"首页" tag:1];
+    [self setUpOneChildViewController:home image:[UIImage imageNamed:@"tab_1_nor"] selectedImage:[UIImage imageNamed:@"tab_1_sel"] title:@"首页" tag:1];
 
     // 分类
     LSJCategoryViewController * category = [[LSJCategoryViewController alloc] init];
-    [self setUpOneChildViewController:category image:[UIImage imageNamed:@"项目推荐_未选中"] selectedImage:[UIImage imageNamed:@"项目推荐_选中"] title:@"分类" tag:2];
+    [self setUpOneChildViewController:category image:[UIImage imageNamed:@"tab_2_nor"] selectedImage:[UIImage imageNamed:@"tab_2_sel"] title:@"分类" tag:2];
     
     // 发现
     LSJFoundViewController * found = [[LSJFoundViewController alloc] init];
-    [self setUpOneChildViewController:found image:[UIImage imageNamed:@"基金使用_未选中"] selectedImage:[UIImage imageNamed:@"基金使用_选中"] title:@"发现" tag:3];
+    [self setUpOneChildViewController:found image:[UIImage imageNamed:@"tab_3_nor"] selectedImage:[UIImage imageNamed:@"tab_3_sel"] title:@"发现" tag:3];
 
     // 我的
     LSJMineViewController *mine = [[LSJMineViewController alloc] init];
-    [self setUpOneChildViewController:mine image:[UIImage imageNamed:@"我的01"] selectedImage:[UIImage imageNamed:@"我的02"] title:@"我的" tag:4];
+    [self setUpOneChildViewController:mine image:[UIImage imageNamed:@"tab_5_nor"] selectedImage:[UIImage imageNamed:@"tab_5_sel"] title:@"我的" tag:4];
 
 }
 

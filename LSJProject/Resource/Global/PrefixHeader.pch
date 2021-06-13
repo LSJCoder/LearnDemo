@@ -15,6 +15,7 @@
 #import "CommonUseMacro.h"
 #import "CommonSetMacro.h"
 #import "ImportMacro.h"
+#import "FileHeaderMacro.h"
 
 
 #endif /* PrefixHeader_pch */

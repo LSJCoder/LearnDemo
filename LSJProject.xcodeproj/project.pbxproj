@@ -17,24 +17,32 @@
 		A8029E152658BFF400AF53E5 /* LSJHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8029E142658BFF400AF53E5 /* LSJHomeViewController.m */; };
 		A8029E182658C02700AF53E5 /* LSJCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8029E172658C02700AF53E5 /* LSJCategoryViewController.m */; };
 		A8029E1B2658C03500AF53E5 /* LSJFoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8029E1A2658C03500AF53E5 /* LSJFoundViewController.m */; };
-		A8029E1E2658C04E00AF53E5 /* LSJMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8029E1D2658C04E00AF53E5 /* LSJMineViewController.m */; };
 		A8029E2B2658CA3700AF53E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8029E292658CA3700AF53E5 /* LaunchScreen.storyboard */; };
 		A8029E2E2658CC8300AF53E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8029E2C2658CC8300AF53E5 /* Assets.xcassets */; };
 		A8029E332658D0BD00AF53E5 /* LSJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8029E312658D0BD00AF53E5 /* LSJAppDelegate.m */; };
-		A84CF2A6264C24FD0034C94A /* LSJLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = A84CF2A5264C24FD0034C94A /* LSJLineChartView.m */; };
-		A84CF2AC264C25950034C94A /* UIBezierPath+LSJ.m in Sources */ = {isa = PBXBuildFile; fileRef = A84CF2AB264C25950034C94A /* UIBezierPath+LSJ.m */; };
-		A84CF2AF264C26100034C94A /* LSJLineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A84CF2AE264C26100034C94A /* LSJLineChartViewController.m */; };
+		A8029E4A2658F95100AF53E5 /* LSJMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8029E482658F95100AF53E5 /* LSJMineViewController.m */; };
+		A8029E4D2658F9CC00AF53E5 /* LSJBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8029E4C2658F9CC00AF53E5 /* LSJBaseCell.m */; };
+		A8029E512658FA0B00AF53E5 /* LSJMineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8029E4F2658FA0B00AF53E5 /* LSJMineCell.m */; };
+		A8029E522658FA0B00AF53E5 /* LSJMineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8029E502658FA0B00AF53E5 /* LSJMineCell.xib */; };
+		A8029E552658FCD000AF53E5 /* LSJMineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8029E542658FCD000AF53E5 /* LSJMineModel.m */; };
 		A87C6E5C2648280700138A78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87C6E5B2648280700138A78 /* ViewController.m */; };
 		A87C6E672648280800138A78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A87C6E662648280800138A78 /* main.m */; };
 		A87C6E712648280900138A78 /* LSJProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A87C6E702648280900138A78 /* LSJProjectTests.m */; };
 		A87C6E7C2648280900138A78 /* LSJProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A87C6E7B2648280900138A78 /* LSJProjectUITests.m */; };
-		A87C6E8C264829FC00138A78 /* LSJExampleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87C6E8B264829FC00138A78 /* LSJExampleListViewController.m */; };
-		A87C6E9626482DD000138A78 /* LSJSelectOneLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A87C6E9226482DD000138A78 /* LSJSelectOneLineCell.m */; };
-		A87C6E9726482DD000138A78 /* LSJSelectOneLineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A87C6E9326482DD000138A78 /* LSJSelectOneLineCell.xib */; };
-		A87C6E9826482DD000138A78 /* LSJSelectListView.m in Sources */ = {isa = PBXBuildFile; fileRef = A87C6E9426482DD000138A78 /* LSJSelectListView.m */; };
-		A87C6E9B2648338100138A78 /* LSJListViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87C6E9A2648338100138A78 /* LSJListViewViewController.m */; };
-		A87C6E9E26483D3600138A78 /* LSJPickerViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87C6E9D26483D3600138A78 /* LSJPickerViewViewController.m */; };
-		A87C6EA126483E0000138A78 /* LSJPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A87C6EA026483E0000138A78 /* LSJPickerView.m */; };
+		A8DEAF5D2659047400697DDD /* LSJTestDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DEAF5C2659047400697DDD /* LSJTestDemoViewController.m */; };
+		A8DEAF602659049D00697DDD /* LSJCustomEncapsulationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DEAF5F2659049D00697DDD /* LSJCustomEncapsulationController.m */; };
+		A8DEAF63265904BF00697DDD /* LSJSystemEncapsulationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DEAF62265904BF00697DDD /* LSJSystemEncapsulationController.m */; };
+		A8DEAF66265904E100697DDD /* LSJVenderEncapsulationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DEAF65265904E100697DDD /* LSJVenderEncapsulationController.m */; };
+		A8DEAF692659081C00697DDD /* LSJMineLiseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DEAF682659081C00697DDD /* LSJMineLiseModel.m */; };
+		A8DEAF7826590A0B00697DDD /* LSJSelectListView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DEAF6F26590A0B00697DDD /* LSJSelectListView.m */; };
+		A8DEAF7926590A0B00697DDD /* LSJSelectOneLineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8DEAF7226590A0B00697DDD /* LSJSelectOneLineCell.xib */; };
+		A8DEAF7A26590A0B00697DDD /* LSJSelectOneLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DEAF7426590A0B00697DDD /* LSJSelectOneLineCell.m */; };
+		A8DEAF7B26590A0B00697DDD /* LSJPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DEAF7526590A0B00697DDD /* LSJPickerView.m */; };
+		A8DEAF7C26590A0B00697DDD /* UIBezierPath+LSJ.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DEAF7626590A0B00697DDD /* UIBezierPath+LSJ.m */; };
+		A8DEAF7D26590A0B00697DDD /* LSJLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DEAF7726590A0B00697DDD /* LSJLineChartView.m */; };
+		A8DEAF8426590A3900697DDD /* LSJLineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DEAF7F26590A3900697DDD /* LSJLineChartViewController.m */; };
+		A8DEAF8526590A3900697DDD /* LSJListViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DEAF8226590A3900697DDD /* LSJListViewViewController.m */; };
+		A8DEAF8626590A3900697DDD /* LSJPickerViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DEAF8326590A3900697DDD /* LSJPickerViewViewController.m */; };
 		C0E2F0D7F759F1C513C4A3C7 /* Pods_LSJProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E647F72359A66C90F64E1EF /* Pods_LSJProject.framework */; };
 		F2913AD65B9053D8D482616E /* Pods_LSJProject_LSJProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FBAF461871C4728803682F /* Pods_LSJProject_LSJProjectUITests.framework */; };
 /* End PBXBuildFile section */
@@ -80,8 +88,6 @@
 		A8029E172658C02700AF53E5 /* LSJCategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJCategoryViewController.m; sourceTree = "<group>"; };
 		A8029E192658C03500AF53E5 /* LSJFoundViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJFoundViewController.h; sourceTree = "<group>"; };
 		A8029E1A2658C03500AF53E5 /* LSJFoundViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJFoundViewController.m; sourceTree = "<group>"; };
-		A8029E1C2658C04E00AF53E5 /* LSJMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJMineViewController.h; sourceTree = "<group>"; };
-		A8029E1D2658C04E00AF53E5 /* LSJMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJMineViewController.m; sourceTree = "<group>"; };
 		A8029E2A2658CA3700AF53E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LSJProject/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		A8029E2C2658CC8300AF53E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8029E2D2658CC8300AF53E5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -94,12 +100,16 @@
 		A8029E3F2658D99600AF53E5 /* CommonUseMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonUseMacro.h; sourceTree = "<group>"; };
 		A8029E402658D9E100AF53E5 /* ImportMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImportMacro.h; sourceTree = "<group>"; };
 		A8029E412658E90200AF53E5 /* CommonSetMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonSetMacro.h; sourceTree = "<group>"; };
-		A84CF2A4264C24FD0034C94A /* LSJLineChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJLineChartView.h; sourceTree = "<group>"; };
-		A84CF2A5264C24FD0034C94A /* LSJLineChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJLineChartView.m; sourceTree = "<group>"; };
-		A84CF2AA264C25950034C94A /* UIBezierPath+LSJ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+LSJ.h"; sourceTree = "<group>"; };
-		A84CF2AB264C25950034C94A /* UIBezierPath+LSJ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+LSJ.m"; sourceTree = "<group>"; };
-		A84CF2AD264C26100034C94A /* LSJLineChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJLineChartViewController.h; sourceTree = "<group>"; };
-		A84CF2AE264C26100034C94A /* LSJLineChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJLineChartViewController.m; sourceTree = "<group>"; };
+		A8029E422658F83600AF53E5 /* FileHeaderMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileHeaderMacro.h; sourceTree = "<group>"; };
+		A8029E482658F95100AF53E5 /* LSJMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSJMineViewController.m; sourceTree = "<group>"; };
+		A8029E492658F95100AF53E5 /* LSJMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSJMineViewController.h; sourceTree = "<group>"; };
+		A8029E4B2658F9CC00AF53E5 /* LSJBaseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJBaseCell.h; sourceTree = "<group>"; };
+		A8029E4C2658F9CC00AF53E5 /* LSJBaseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJBaseCell.m; sourceTree = "<group>"; };
+		A8029E4E2658FA0B00AF53E5 /* LSJMineCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJMineCell.h; sourceTree = "<group>"; };
+		A8029E4F2658FA0B00AF53E5 /* LSJMineCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJMineCell.m; sourceTree = "<group>"; };
+		A8029E502658FA0B00AF53E5 /* LSJMineCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LSJMineCell.xib; sourceTree = "<group>"; };
+		A8029E532658FCD000AF53E5 /* LSJMineModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJMineModel.h; sourceTree = "<group>"; };
+		A8029E542658FCD000AF53E5 /* LSJMineModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJMineModel.m; sourceTree = "<group>"; };
 		A87C6E542648280700138A78 /* LSJProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSJProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A87C6E5A2648280700138A78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A87C6E5B2648280700138A78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -110,19 +120,33 @@
 		A87C6E772648280900138A78 /* LSJProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSJProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A87C6E7B2648280900138A78 /* LSJProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJProjectUITests.m; sourceTree = "<group>"; };
 		A87C6E7D2648280900138A78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A87C6E8A264829FC00138A78 /* LSJExampleListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJExampleListViewController.h; sourceTree = "<group>"; };
-		A87C6E8B264829FC00138A78 /* LSJExampleListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJExampleListViewController.m; sourceTree = "<group>"; };
-		A87C6E9126482DD000138A78 /* LSJSelectListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSJSelectListView.h; sourceTree = "<group>"; };
-		A87C6E9226482DD000138A78 /* LSJSelectOneLineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSJSelectOneLineCell.m; sourceTree = "<group>"; };
-		A87C6E9326482DD000138A78 /* LSJSelectOneLineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSJSelectOneLineCell.xib; sourceTree = "<group>"; };
-		A87C6E9426482DD000138A78 /* LSJSelectListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSJSelectListView.m; sourceTree = "<group>"; };
-		A87C6E9526482DD000138A78 /* LSJSelectOneLineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSJSelectOneLineCell.h; sourceTree = "<group>"; };
-		A87C6E992648338100138A78 /* LSJListViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJListViewViewController.h; sourceTree = "<group>"; };
-		A87C6E9A2648338100138A78 /* LSJListViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJListViewViewController.m; sourceTree = "<group>"; };
-		A87C6E9C26483D3600138A78 /* LSJPickerViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJPickerViewViewController.h; sourceTree = "<group>"; };
-		A87C6E9D26483D3600138A78 /* LSJPickerViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJPickerViewViewController.m; sourceTree = "<group>"; };
-		A87C6E9F26483E0000138A78 /* LSJPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJPickerView.h; sourceTree = "<group>"; };
-		A87C6EA026483E0000138A78 /* LSJPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJPickerView.m; sourceTree = "<group>"; };
+		A8DEAF5B2659047400697DDD /* LSJTestDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJTestDemoViewController.h; sourceTree = "<group>"; };
+		A8DEAF5C2659047400697DDD /* LSJTestDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJTestDemoViewController.m; sourceTree = "<group>"; };
+		A8DEAF5E2659049D00697DDD /* LSJCustomEncapsulationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJCustomEncapsulationController.h; sourceTree = "<group>"; };
+		A8DEAF5F2659049D00697DDD /* LSJCustomEncapsulationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJCustomEncapsulationController.m; sourceTree = "<group>"; };
+		A8DEAF61265904BF00697DDD /* LSJSystemEncapsulationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJSystemEncapsulationController.h; sourceTree = "<group>"; };
+		A8DEAF62265904BF00697DDD /* LSJSystemEncapsulationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJSystemEncapsulationController.m; sourceTree = "<group>"; };
+		A8DEAF64265904E100697DDD /* LSJVenderEncapsulationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJVenderEncapsulationController.h; sourceTree = "<group>"; };
+		A8DEAF65265904E100697DDD /* LSJVenderEncapsulationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJVenderEncapsulationController.m; sourceTree = "<group>"; };
+		A8DEAF672659081C00697DDD /* LSJMineLiseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJMineLiseModel.h; sourceTree = "<group>"; };
+		A8DEAF682659081C00697DDD /* LSJMineLiseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJMineLiseModel.m; sourceTree = "<group>"; };
+		A8DEAF6D26590A0B00697DDD /* UIBezierPath+LSJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+LSJ.h"; sourceTree = "<group>"; };
+		A8DEAF6E26590A0B00697DDD /* LSJSelectListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSJSelectListView.h; sourceTree = "<group>"; };
+		A8DEAF6F26590A0B00697DDD /* LSJSelectListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSJSelectListView.m; sourceTree = "<group>"; };
+		A8DEAF7026590A0B00697DDD /* LSJPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSJPickerView.h; sourceTree = "<group>"; };
+		A8DEAF7126590A0B00697DDD /* LSJSelectOneLineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSJSelectOneLineCell.h; sourceTree = "<group>"; };
+		A8DEAF7226590A0B00697DDD /* LSJSelectOneLineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSJSelectOneLineCell.xib; sourceTree = "<group>"; };
+		A8DEAF7326590A0B00697DDD /* LSJLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSJLineChartView.h; sourceTree = "<group>"; };
+		A8DEAF7426590A0B00697DDD /* LSJSelectOneLineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSJSelectOneLineCell.m; sourceTree = "<group>"; };
+		A8DEAF7526590A0B00697DDD /* LSJPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSJPickerView.m; sourceTree = "<group>"; };
+		A8DEAF7626590A0B00697DDD /* UIBezierPath+LSJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+LSJ.m"; sourceTree = "<group>"; };
+		A8DEAF7726590A0B00697DDD /* LSJLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSJLineChartView.m; sourceTree = "<group>"; };
+		A8DEAF7E26590A3900697DDD /* LSJPickerViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSJPickerViewViewController.h; sourceTree = "<group>"; };
+		A8DEAF7F26590A3900697DDD /* LSJLineChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSJLineChartViewController.m; sourceTree = "<group>"; };
+		A8DEAF8026590A3900697DDD /* LSJListViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSJListViewViewController.h; sourceTree = "<group>"; };
+		A8DEAF8126590A3900697DDD /* LSJLineChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSJLineChartViewController.h; sourceTree = "<group>"; };
+		A8DEAF8226590A3900697DDD /* LSJListViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSJListViewViewController.m; sourceTree = "<group>"; };
+		A8DEAF8326590A3900697DDD /* LSJPickerViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSJPickerViewViewController.m; sourceTree = "<group>"; };
 		B9988D374DC1784FDB38B7AD /* Pods-LSJProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSJProject.release.xcconfig"; path = "Target Support Files/Pods-LSJProject/Pods-LSJProject.release.xcconfig"; sourceTree = "<group>"; };
 		CE2C4D8AED5F3CF7AA17344C /* Pods_LSJProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSJProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5D051BD58D3344996CD7DEA /* Pods-LSJProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSJProject.debug.xcconfig"; path = "Target Support Files/Pods-LSJProject/Pods-LSJProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -217,8 +241,8 @@
 		A8029DFE2658BD9E00AF53E5 /* Meine */ = {
 			isa = PBXGroup;
 			children = (
-				A8029E1C2658C04E00AF53E5 /* LSJMineViewController.h */,
-				A8029E1D2658C04E00AF53E5 /* LSJMineViewController.m */,
+				A8029E432658F8E900AF53E5 /* MineHome */,
+				A8DEAF6A2659096000697DDD /* TestDemo */,
 			);
 			path = Meine;
 			sourceTree = "<group>";
@@ -266,6 +290,8 @@
 			children = (
 				A8029E0D2658BF0400AF53E5 /* LSJBaseView.h */,
 				A8029E0E2658BF0400AF53E5 /* LSJBaseView.m */,
+				A8029E4B2658F9CC00AF53E5 /* LSJBaseCell.h */,
+				A8029E4C2658F9CC00AF53E5 /* LSJBaseCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -343,6 +369,7 @@
 				A8029E3E2658D92700AF53E5 /* DeviceAndSystemMacro.h */,
 				A8029E3F2658D99600AF53E5 /* CommonUseMacro.h */,
 				A8029E412658E90200AF53E5 /* CommonSetMacro.h */,
+				A8029E422658F83600AF53E5 /* FileHeaderMacro.h */,
 				A8029E402658D9E100AF53E5 /* ImportMacro.h */,
 			);
 			path = Macros;
@@ -360,6 +387,54 @@
 			children = (
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		A8029E432658F8E900AF53E5 /* MineHome */ = {
+			isa = PBXGroup;
+			children = (
+				A8029E472658F91600AF53E5 /* Controller */,
+				A8029E462658F90F00AF53E5 /* View */,
+				A8029E442658F8FC00AF53E5 /* Model */,
+			);
+			path = MineHome;
+			sourceTree = "<group>";
+		};
+		A8029E442658F8FC00AF53E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A8029E532658FCD000AF53E5 /* LSJMineModel.h */,
+				A8029E542658FCD000AF53E5 /* LSJMineModel.m */,
+				A8DEAF672659081C00697DDD /* LSJMineLiseModel.h */,
+				A8DEAF682659081C00697DDD /* LSJMineLiseModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8029E462658F90F00AF53E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8029E4E2658FA0B00AF53E5 /* LSJMineCell.h */,
+				A8029E4F2658FA0B00AF53E5 /* LSJMineCell.m */,
+				A8029E502658FA0B00AF53E5 /* LSJMineCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8029E472658F91600AF53E5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A8029E492658F95100AF53E5 /* LSJMineViewController.h */,
+				A8029E482658F95100AF53E5 /* LSJMineViewController.m */,
+				A8DEAF5B2659047400697DDD /* LSJTestDemoViewController.h */,
+				A8DEAF5C2659047400697DDD /* LSJTestDemoViewController.m */,
+				A8DEAF5E2659049D00697DDD /* LSJCustomEncapsulationController.h */,
+				A8DEAF5F2659049D00697DDD /* LSJCustomEncapsulationController.m */,
+				A8DEAF61265904BF00697DDD /* LSJSystemEncapsulationController.h */,
+				A8DEAF62265904BF00697DDD /* LSJSystemEncapsulationController.m */,
+				A8DEAF64265904E100697DDD /* LSJVenderEncapsulationController.h */,
+				A8DEAF65265904E100697DDD /* LSJVenderEncapsulationController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		A87C6E4B2648280700138A78 = {
@@ -392,8 +467,6 @@
 				A8029E1F2658C88D00AF53E5 /* Expand */,
 				A8029E212658C8CA00AF53E5 /* Vernder */,
 				A8029E202658C8BB00AF53E5 /* Resource */,
-				A87C6E9026482DBA00138A78 /* Views */,
-				A87C6E89264829CD00138A78 /* Conteollers */,
 			);
 			path = LSJProject;
 			sourceTree = "<group>";
@@ -416,37 +489,44 @@
 			path = LSJProjectUITests;
 			sourceTree = "<group>";
 		};
-		A87C6E89264829CD00138A78 /* Conteollers */ = {
+		A8DEAF6A2659096000697DDD /* TestDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A87C6E8A264829FC00138A78 /* LSJExampleListViewController.h */,
-				A87C6E8B264829FC00138A78 /* LSJExampleListViewController.m */,
-				A87C6E992648338100138A78 /* LSJListViewViewController.h */,
-				A87C6E9A2648338100138A78 /* LSJListViewViewController.m */,
-				A87C6E9C26483D3600138A78 /* LSJPickerViewViewController.h */,
-				A87C6E9D26483D3600138A78 /* LSJPickerViewViewController.m */,
-				A84CF2AD264C26100034C94A /* LSJLineChartViewController.h */,
-				A84CF2AE264C26100034C94A /* LSJLineChartViewController.m */,
+				A8DEAF6C265909BA00697DDD /* View */,
+				A8DEAF6B265909AF00697DDD /* Controller */,
 			);
-			path = Conteollers;
+			path = TestDemo;
 			sourceTree = "<group>";
 		};
-		A87C6E9026482DBA00138A78 /* Views */ = {
+		A8DEAF6B265909AF00697DDD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A87C6E9126482DD000138A78 /* LSJSelectListView.h */,
-				A87C6E9426482DD000138A78 /* LSJSelectListView.m */,
-				A87C6E9526482DD000138A78 /* LSJSelectOneLineCell.h */,
-				A87C6E9226482DD000138A78 /* LSJSelectOneLineCell.m */,
-				A87C6E9326482DD000138A78 /* LSJSelectOneLineCell.xib */,
-				A87C6E9F26483E0000138A78 /* LSJPickerView.h */,
-				A87C6EA026483E0000138A78 /* LSJPickerView.m */,
-				A84CF2A4264C24FD0034C94A /* LSJLineChartView.h */,
-				A84CF2A5264C24FD0034C94A /* LSJLineChartView.m */,
-				A84CF2AA264C25950034C94A /* UIBezierPath+LSJ.h */,
-				A84CF2AB264C25950034C94A /* UIBezierPath+LSJ.m */,
+				A8DEAF8126590A3900697DDD /* LSJLineChartViewController.h */,
+				A8DEAF7F26590A3900697DDD /* LSJLineChartViewController.m */,
+				A8DEAF8026590A3900697DDD /* LSJListViewViewController.h */,
+				A8DEAF8226590A3900697DDD /* LSJListViewViewController.m */,
+				A8DEAF7E26590A3900697DDD /* LSJPickerViewViewController.h */,
+				A8DEAF8326590A3900697DDD /* LSJPickerViewViewController.m */,
 			);
-			path = Views;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A8DEAF6C265909BA00697DDD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8DEAF7326590A0B00697DDD /* LSJLineChartView.h */,
+				A8DEAF7726590A0B00697DDD /* LSJLineChartView.m */,
+				A8DEAF7026590A0B00697DDD /* LSJPickerView.h */,
+				A8DEAF7526590A0B00697DDD /* LSJPickerView.m */,
+				A8DEAF6E26590A0B00697DDD /* LSJSelectListView.h */,
+				A8DEAF6F26590A0B00697DDD /* LSJSelectListView.m */,
+				A8DEAF7126590A0B00697DDD /* LSJSelectOneLineCell.h */,
+				A8DEAF7426590A0B00697DDD /* LSJSelectOneLineCell.m */,
+				A8DEAF7226590A0B00697DDD /* LSJSelectOneLineCell.xib */,
+				A8DEAF6D26590A0B00697DDD /* UIBezierPath+LSJ.h */,
+				A8DEAF7626590A0B00697DDD /* UIBezierPath+LSJ.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -558,8 +638,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A87C6E9726482DD000138A78 /* LSJSelectOneLineCell.xib in Resources */,
+				A8DEAF7926590A0B00697DDD /* LSJSelectOneLineCell.xib in Resources */,
 				A8029E2E2658CC8300AF53E5 /* Assets.xcassets in Resources */,
+				A8029E522658FA0B00AF53E5 /* LSJMineCell.xib in Resources */,
 				A8029E2B2658CA3700AF53E5 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -688,28 +769,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A87C6E9826482DD000138A78 /* LSJSelectListView.m in Sources */,
+				A8DEAF8426590A3900697DDD /* LSJLineChartViewController.m in Sources */,
+				A8029E4D2658F9CC00AF53E5 /* LSJBaseCell.m in Sources */,
 				A87C6E5C2648280700138A78 /* ViewController.m in Sources */,
 				A8029E072658BEA800AF53E5 /* LSJBaseViewController.m in Sources */,
-				A87C6E8C264829FC00138A78 /* LSJExampleListViewController.m in Sources */,
+				A8029E552658FCD000AF53E5 /* LSJMineModel.m in Sources */,
+				A8DEAF7C26590A0B00697DDD /* UIBezierPath+LSJ.m in Sources */,
+				A8DEAF66265904E100697DDD /* LSJVenderEncapsulationController.m in Sources */,
+				A8DEAF63265904BF00697DDD /* LSJSystemEncapsulationController.m in Sources */,
 				A8029E0F2658BF0400AF53E5 /* LSJBaseView.m in Sources */,
+				A8DEAF7D26590A0B00697DDD /* LSJLineChartView.m in Sources */,
+				A8DEAF7826590A0B00697DDD /* LSJSelectListView.m in Sources */,
 				A87C6E672648280800138A78 /* main.m in Sources */,
 				A8029DFB2658BCBE00AF53E5 /* LSJBaseTabBarViewController.m in Sources */,
 				A8029E042658BE9100AF53E5 /* LSJBaseNavigationViewController.m in Sources */,
+				A8DEAF692659081C00697DDD /* LSJMineLiseModel.m in Sources */,
 				A8029E1B2658C03500AF53E5 /* LSJFoundViewController.m in Sources */,
+				A8DEAF602659049D00697DDD /* LSJCustomEncapsulationController.m in Sources */,
+				A8029E512658FA0B00AF53E5 /* LSJMineCell.m in Sources */,
 				A8029E152658BFF400AF53E5 /* LSJHomeViewController.m in Sources */,
-				A84CF2AC264C25950034C94A /* UIBezierPath+LSJ.m in Sources */,
-				A87C6E9E26483D3600138A78 /* LSJPickerViewViewController.m in Sources */,
-				A87C6EA126483E0000138A78 /* LSJPickerView.m in Sources */,
-				A87C6E9B2648338100138A78 /* LSJListViewViewController.m in Sources */,
-				A87C6E9626482DD000138A78 /* LSJSelectOneLineCell.m in Sources */,
-				A8029E1E2658C04E00AF53E5 /* LSJMineViewController.m in Sources */,
+				A8DEAF5D2659047400697DDD /* LSJTestDemoViewController.m in Sources */,
+				A8DEAF8526590A3900697DDD /* LSJListViewViewController.m in Sources */,
+				A8DEAF7A26590A0B00697DDD /* LSJSelectOneLineCell.m in Sources */,
+				A8DEAF7B26590A0B00697DDD /* LSJPickerView.m in Sources */,
+				A8029E4A2658F95100AF53E5 /* LSJMineViewController.m in Sources */,
 				A8029E122658BF4E00AF53E5 /* LSJWebViewController.m in Sources */,
-				A84CF2AF264C26100034C94A /* LSJLineChartViewController.m in Sources */,
 				A8029E182658C02700AF53E5 /* LSJCategoryViewController.m in Sources */,
 				A8029E0C2658BEF000AF53E5 /* LSJBaseModel.m in Sources */,
 				A8029E332658D0BD00AF53E5 /* LSJAppDelegate.m in Sources */,
-				A84CF2A6264C24FD0034C94A /* LSJLineChartView.m in Sources */,
+				A8DEAF8626590A3900697DDD /* LSJPickerViewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
