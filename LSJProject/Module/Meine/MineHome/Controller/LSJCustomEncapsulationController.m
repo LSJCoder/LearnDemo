@@ -7,7 +7,134 @@
 //
 
 #import "LSJCustomEncapsulationController.h"
+#import "LSJMineListModel.h"
+
+static CGFloat const CellHeight = 44;
+static NSString const *VCName = @"VCName";
+static NSString const *VCTitle = @"VCTitle";
+
+@interface LSJCustomEncapsulationController ()<UITableViewDelegate, UITableViewDataSource>
+
+@property (nonatomic, strong) UITableView *tableView;
+
+@property (nonatomic, copy) NSArray *controllerMessages;
+
+@property (nonatomic, strong) NSMutableArray<LSJMineListModel *> *mineListModels;
+
+@end
 
 @implementation LSJCustomEncapsulationController
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    [self createUI];
+    
+    [self createData];
+    
+}
+
+#pragma mark - UI
+
+- (void)createUI {
+    WeakSelf
+    [self.view addSubview:self.tableView];
+    [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(weakSelf.view);
+    }];
+}
+
+#pragma mark - Data
+
+- (void)createData {
+    self.controllerMessages = @[
+                                @{
+                                    VCName : @"LSJListViewViewController",
+                                    VCTitle : @"实现任何位置下拉列表"
+                                    },
+                                @{
+                                    VCName : @"LSJPickerViewViewController",
+                                    VCTitle : @"简单底部pickerView实现"
+                                    },
+                                @{
+                                    VCName : @"LSJLineChartViewController",
+                                    VCTitle : @"折线波浪图的实现"
+                                    }
+                                ];
+    
+    
+    for (int i = 0; i < self.controllerMessages.count; i++) {
+        NSDictionary *controllerMessage = self.controllerMessages[i];
+        
+        LSJMineListModel *model = LSJMineListModel.new;
+        model.title = controllerMessage[VCTitle];
+        model.controllerString = controllerMessage[VCName];
+        
+        [self.mineListModels addObject:model];
+    };
+    
+    [self.tableView reloadData];
+}
+
+
+#pragma mark - DataSource
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.mineListModels.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass(UITableViewCell.class) forIndexPath:indexPath];
+    LSJMineListModel *model = self.mineListModels[indexPath.row];
+    cell.textLabel.text = model.title;
+    return cell;
+}
+
+#pragma mark - Delegate
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return CellHeight;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    LSJMineListModel *model = self.mineListModels[indexPath.row];
+    UIViewController *vc = (UIViewController *)[[NSClassFromString(model.controllerString) alloc] init];
+    vc.view.backgroundColor = [UIColor whiteColor];
+    vc.title = model.title;
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+#pragma mark - setter
+
+
+
+#pragma mark - getter
+
+- (UITableView *)tableView {
+    if (!_tableView) {
+        _tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
+        _tableView.dataSource = self;
+        _tableView.delegate = self;
+        _tableView.showsVerticalScrollIndicator = NO;
+        _tableView.showsHorizontalScrollIndicator = NO;
+//        _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+        _tableView.rowHeight = UITableViewAutomaticDimension;
+        _tableView.estimatedRowHeight = 200;
+        [self.tableView registerClass:UITableViewCell.class forCellReuseIdentifier:NSStringFromClass(UITableViewCell.class)];
+    }
+    return _tableView;
+}
+
+- (NSMutableArray<LSJMineListModel *> *)mineListModels {
+    if (!_mineListModels) {
+        _mineListModels = NSMutableArray.new;
+    }
+    return _mineListModels;
+}
 @end

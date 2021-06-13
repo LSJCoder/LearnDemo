@@ -8,19 +8,19 @@
 
 #import "LSJMineViewController.h"
 #import "LSJMineCell.h"
-#import "LSJMineModel.h"
+#import "LSJMineListModel.h"
 
 static CGFloat const CellHeight = 44;
+static NSString const *VCName = @"VCName";
+static NSString const *VCTitle = @"VCTitle";
 
 @interface LSJMineViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
 
-@property (nonatomic, copy) NSArray *titles;
+@property (nonatomic, copy) NSArray *controllerMessages;
 
-@property (nonatomic, copy) NSArray *controllers;
-
-@property (nonatomic, strong) NSMutableArray *mineModels;
+@property (nonatomic, strong) NSMutableArray<LSJMineListModel *> *mineListModels;
 
 @end
 
@@ -48,29 +48,34 @@ static CGFloat const CellHeight = 44;
 #pragma mark - Data
 
 - (void)createData {
-    self.controllers = @[
-                         @"LSJTestDemoViewController",
-                         @"LSJCustomEncapsulationController",
-                         @"LSJSystemEncapsulationController",
-                         @"LSJVenderEncapsulationController"
-                         ];
-
-    self.titles = @[
-                    @"testDemo",
-                    @"custom Encapsulation"
-                    ,@"system Encapsulation"
-                    ,@"vender Encapsulation"
-                    ];
-
-    for (int i = 0; i < self.titles.count; i++) {
-        NSString *title = self.titles[i];
-        NSString *controllerString = self.controllers[i];
+    self.controllerMessages = @[
+                                @{
+                                    VCName : @"LSJTestDemoViewController",
+                                    VCTitle : @"testDemo"
+                                    },
+                                @{
+                                    VCName : @"LSJCustomEncapsulationController",
+                                    VCTitle : @"custom Encapsulation"
+                                    },
+                                @{
+                                    VCName : @"LSJSystemEncapsulationController",
+                                    VCTitle : @"system Encapsulation"
+                                    },
+                                @{
+                                    VCName : @"LSJVenderEncapsulationController",
+                                    VCTitle : @"vender Encapsulation"
+                                    }
+                                ];
+    
+    
+    for (int i = 0; i < self.controllerMessages.count; i++) {
+        NSDictionary *controllerMessage = self.controllerMessages[i];
         
-        LSJMineModel *model = LSJMineModel.new;
-        model.title = title;
-        model.controllerString = controllerString;
+        LSJMineListModel *model = LSJMineListModel.new;
+        model.title = controllerMessage[VCTitle];
+        model.controllerString = controllerMessage[VCName];
         
-        [self.mineModels addObject:model];
+        [self.mineListModels addObject:model];
     };
 
     [self.tableView reloadData];
@@ -84,12 +89,12 @@ static CGFloat const CellHeight = 44;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.mineModels.count;
+    return self.mineListModels.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     LSJMineCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass(LSJMineCell.class) forIndexPath:indexPath];
-    LSJMineModel *model = self.mineModels[indexPath.row];
+    LSJMineListModel *model = self.mineListModels[indexPath.row];
     cell.textLabel.text = model.title;
     return cell;
 }
@@ -103,7 +108,7 @@ static CGFloat const CellHeight = 44;
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    LSJMineModel *model = self.mineModels[indexPath.row];
+    LSJMineListModel *model = self.mineListModels[indexPath.row];
     UIViewController *vc = (UIViewController *)[[NSClassFromString(model.controllerString) alloc] init];
     vc.view.backgroundColor = [UIColor whiteColor];
     vc.title = model.title;
@@ -131,11 +136,11 @@ static CGFloat const CellHeight = 44;
     return _tableView;
 }
 
-- (NSMutableArray *)mineModels {
-    if (!_mineModels) {
-        _mineModels = [NSMutableArray new];
+- (NSMutableArray<LSJMineListModel *> *)mineListModels {
+    if (!_mineListModels) {
+        _mineListModels = NSMutableArray.new;
     }
-    return _mineModels;
+    return _mineListModels;
 }
 
 @end

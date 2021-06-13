@@ -7,19 +7,19 @@
 //
 
 #import "LSJTestDemoViewController.h"
-#import "LSJMineLiseModel.h"
+#import "LSJMineListModel.h"
 
 static CGFloat const CellHeight = 44;
+static NSString const *VCName = @"VCName";
+static NSString const *VCTitle = @"VCTitle";
 
 @interface LSJTestDemoViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
 
-@property (nonatomic, copy) NSArray *titles;
+@property (nonatomic, copy) NSArray *controllerMessages;
 
-@property (nonatomic, copy) NSArray *controllers;
-
-@property (nonatomic, strong) NSMutableArray<LSJMineLiseModel *> *testDemoModels;
+@property (nonatomic, strong) NSMutableArray<LSJMineListModel *> *mineListModels;
 
 @end
 
@@ -47,27 +47,30 @@ static CGFloat const CellHeight = 44;
 #pragma mark - Data
 
 - (void)createData {
-    self.controllers = @[
-                         @"LSJListViewViewController",
-                         @"LSJPickerViewViewController",
-                         @"LSJLineChartViewController"
-                         ];
+    self.controllerMessages = @[
+                                @{
+                                    VCName : @"LSJListViewViewController",
+                                    VCTitle : @"实现任何位置下拉列表"
+                                    },
+                                @{
+                                    VCName : @"LSJPickerViewViewController",
+                                    VCTitle : @"简单底部pickerView实现"
+                                    },
+                                @{
+                                    VCName : @"LSJLineChartViewController",
+                                    VCTitle : @"折线波浪图的实现"
+                                    }
+                                ];
     
-    self.titles = @[
-                    @"实现任何位置下拉列表",
-                    @"简单底部pickerView实现",
-                    @"折线波浪图的实现"
-                    ];
     
-    for (int i = 0; i < self.titles.count; i++) {
-        NSString *title = self.titles[i];
-        NSString *controllerString = self.controllers[i];
+    for (int i = 0; i < self.controllerMessages.count; i++) {
+        NSDictionary *controllerMessage = self.controllerMessages[i];
         
-        LSJMineLiseModel *model = LSJMineLiseModel.new;
-        model.title = title;
-        model.controllerString = controllerString;
+        LSJMineListModel *model = LSJMineListModel.new;
+        model.title = controllerMessage[VCTitle];
+        model.controllerString = controllerMessage[VCName];
         
-        [self.testDemoModels addObject:model];
+        [self.mineListModels addObject:model];
     };
     
     [self.tableView reloadData];
@@ -81,12 +84,12 @@ static CGFloat const CellHeight = 44;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.testDemoModels.count;
+    return self.mineListModels.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass(UITableViewCell.class) forIndexPath:indexPath];
-    LSJMineLiseModel *model = self.testDemoModels[indexPath.row];
+    LSJMineListModel *model = self.mineListModels[indexPath.row];
     cell.textLabel.text = model.title;
     return cell;
 }
@@ -100,7 +103,7 @@ static CGFloat const CellHeight = 44;
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    LSJMineLiseModel *model = self.testDemoModels[indexPath.row];
+    LSJMineListModel *model = self.mineListModels[indexPath.row];
     UIViewController *vc = (UIViewController *)[[NSClassFromString(model.controllerString) alloc] init];
     vc.view.backgroundColor = [UIColor whiteColor];
     vc.title = model.title;
@@ -128,11 +131,11 @@ static CGFloat const CellHeight = 44;
     return _tableView;
 }
 
-- (NSMutableArray<LSJMineLiseModel *> *)testDemoModels {
-    if (!_testDemoModels) {
-        _testDemoModels = NSMutableArray.new;
+- (NSMutableArray<LSJMineListModel *> *)mineListModels {
+    if (!_mineListModels) {
+        _mineListModels = NSMutableArray.new;
     }
-    return _testDemoModels;
+    return _mineListModels;
 }
 
 @end

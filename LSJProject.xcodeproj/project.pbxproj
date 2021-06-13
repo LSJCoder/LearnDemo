@@ -33,7 +33,7 @@
 		A8DEAF602659049D00697DDD /* LSJCustomEncapsulationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DEAF5F2659049D00697DDD /* LSJCustomEncapsulationController.m */; };
 		A8DEAF63265904BF00697DDD /* LSJSystemEncapsulationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DEAF62265904BF00697DDD /* LSJSystemEncapsulationController.m */; };
 		A8DEAF66265904E100697DDD /* LSJVenderEncapsulationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DEAF65265904E100697DDD /* LSJVenderEncapsulationController.m */; };
-		A8DEAF692659081C00697DDD /* LSJMineLiseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DEAF682659081C00697DDD /* LSJMineLiseModel.m */; };
+		A8DEAF692659081C00697DDD /* LSJMineListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DEAF682659081C00697DDD /* LSJMineListModel.m */; };
 		A8DEAF7826590A0B00697DDD /* LSJSelectListView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DEAF6F26590A0B00697DDD /* LSJSelectListView.m */; };
 		A8DEAF7926590A0B00697DDD /* LSJSelectOneLineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8DEAF7226590A0B00697DDD /* LSJSelectOneLineCell.xib */; };
 		A8DEAF7A26590A0B00697DDD /* LSJSelectOneLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DEAF7426590A0B00697DDD /* LSJSelectOneLineCell.m */; };
@@ -128,8 +128,8 @@
 		A8DEAF62265904BF00697DDD /* LSJSystemEncapsulationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJSystemEncapsulationController.m; sourceTree = "<group>"; };
 		A8DEAF64265904E100697DDD /* LSJVenderEncapsulationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJVenderEncapsulationController.h; sourceTree = "<group>"; };
 		A8DEAF65265904E100697DDD /* LSJVenderEncapsulationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJVenderEncapsulationController.m; sourceTree = "<group>"; };
-		A8DEAF672659081C00697DDD /* LSJMineLiseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJMineLiseModel.h; sourceTree = "<group>"; };
-		A8DEAF682659081C00697DDD /* LSJMineLiseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJMineLiseModel.m; sourceTree = "<group>"; };
+		A8DEAF672659081C00697DDD /* LSJMineListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSJMineListModel.h; sourceTree = "<group>"; };
+		A8DEAF682659081C00697DDD /* LSJMineListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSJMineListModel.m; sourceTree = "<group>"; };
 		A8DEAF6D26590A0B00697DDD /* UIBezierPath+LSJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+LSJ.h"; sourceTree = "<group>"; };
 		A8DEAF6E26590A0B00697DDD /* LSJSelectListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSJSelectListView.h; sourceTree = "<group>"; };
 		A8DEAF6F26590A0B00697DDD /* LSJSelectListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSJSelectListView.m; sourceTree = "<group>"; };
@@ -404,8 +404,8 @@
 			children = (
 				A8029E532658FCD000AF53E5 /* LSJMineModel.h */,
 				A8029E542658FCD000AF53E5 /* LSJMineModel.m */,
-				A8DEAF672659081C00697DDD /* LSJMineLiseModel.h */,
-				A8DEAF682659081C00697DDD /* LSJMineLiseModel.m */,
+				A8DEAF672659081C00697DDD /* LSJMineListModel.h */,
+				A8DEAF682659081C00697DDD /* LSJMineListModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -783,7 +783,7 @@
 				A87C6E672648280800138A78 /* main.m in Sources */,
 				A8029DFB2658BCBE00AF53E5 /* LSJBaseTabBarViewController.m in Sources */,
 				A8029E042658BE9100AF53E5 /* LSJBaseNavigationViewController.m in Sources */,
-				A8DEAF692659081C00697DDD /* LSJMineLiseModel.m in Sources */,
+				A8DEAF692659081C00697DDD /* LSJMineListModel.m in Sources */,
 				A8029E1B2658C03500AF53E5 /* LSJFoundViewController.m in Sources */,
 				A8DEAF602659049D00697DDD /* LSJCustomEncapsulationController.m in Sources */,
 				A8029E512658FA0B00AF53E5 /* LSJMineCell.m in Sources */,

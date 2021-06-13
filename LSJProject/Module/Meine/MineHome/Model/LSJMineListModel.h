@@ -1,5 +1,5 @@
 //
-//  LSJTestDemoModel.h
+//  LSJMineListModel.h
 //  LSJProject
 //
 //  Created by Joy on 2021/5/22.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LSJMineLiseModel : LSJBaseModel
+@interface LSJMineListModel : LSJBaseModel
 
 @property (nonatomic, copy) NSString *title;
 
